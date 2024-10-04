@@ -1,12 +1,12 @@
-# Nexus Chat Application
+# RealTime Chat Application
 
-![Nexus Chat Application](./app/opengraph-image.jpg)
+![RealTime Chat Application](./app/opengraph-image.jpg)
 
-Nexus Chat Application is a modern chat application built with the latest technologies, including Next.js, TypeScript, Tailwind CSS, MongoDB, Prisma, and NextAuth. It features real-time chatting, group creation, profile customization, online status tracking, image uploads, and various authentication methods, including email and social logins with Github, Google, and Twitter. This README will provide comprehensive documentation for setting up, running, and customizing the application.
+RealTime Chat Application is a modern chat application built with the latest technologies, including Next.js, TypeScript, Tailwind CSS, MongoDB, Prisma, and NextAuth. It features real-time chatting, group creation, profile customization, online status tracking, image uploads, and various authentication methods, including email and social logins with Github, Google, and Twitter. This README will provide comprehensive documentation for setting up, running, and customizing the application.
 
 ## Demo
 
-View the live demo at [Nexus Chat Application Demo](https://nexus-dk.vercel.app/)
+View the live demo at [RealTime Chat Application Demo](https://nexus-dk.vercel.app/)
 
 ## Features
 
@@ -33,13 +33,13 @@ View the live demo at [Nexus Chat Application Demo](https://nexus-dk.vercel.app/
 
 ## Installation
 
-Follow these steps to set up the Nexus Chat Application locally:
+Follow these steps to set up the Real Time Chat Application locally:
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yodkwtf/nexus-chat-application.git
-cd nexus-chat-application
+git clone https://github.com/17coincooker/RTChat.git
+cd RTChat
 ```
 
 2. Install dependencies
@@ -59,6 +59,9 @@ GITHUB_SECRET=<YOUR_GITHUB_CLIENT_SECRET>
 
 GOOGLE_ID=<YOUR_GOOGLE_CLIENT_ID>
 GOOGLE_SECRET=<YOUR_GOOGLE_CLIENT_SECRET>
+
+TWITTER_ID=<YOUR_TWITTER_CLIENT_ID>
+TWITTER_SECRET=<YOUR_TWITTER_CLIENT_SECRET>
 
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<YOUR_CLOUDINARY_CLOUD_NAME>
 
